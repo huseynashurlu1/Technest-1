@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 25px;
+}
+
+.logo img{
+    width: 70%;
+    vertical-align: initial;
+    margin-left: 8px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.logo, .search{
+    width: 20%;
+}
+
+.nav {
+    width: 60%;
+}
+
+nav span{
+    background-color: #06A6E3;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+
+.search {
+    text-align: right;
+}
+
+.search button{
+    border: 2px solid #333;
+    color: #333;
+    padding: 9px 35px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+#Slider{
+    padding: 15rem 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://travel.nicdark.com/tourism-wordpress-theme/wp-content/uploads/sites/4/2023/06/para-01.jpg);
+}
+
+#Slider h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#Slider h1 span{
+     color: #06A6E3;
+}
+
+#Slider p {
+    color: #FFFFFF9E;
+    font-size: 16px;
+}
+
+#Tours{
+    padding: 4rem 0;
+}
+
+#Tours .box{
+    height: 400px;
+    position: relative;
+}
+
+#Tours .box-text {
+    position: absolute;
+    z-index: 2345345436;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+}
+
+#Tours .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
